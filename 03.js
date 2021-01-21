@@ -100,4 +100,4 @@ const is_consecutive = (array, index, search_type='all') => {
 }
 
 let result = validarPassword('123u*a5678Ff1234567#');
-console.log( result === true ? "La contraseña es válida" : result);
+console.log( Object.keys(result).length == 0 ? "La contraseña es válida" : result);
